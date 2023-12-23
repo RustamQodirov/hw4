@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:lab_7/first_screen.dart';
 
-class IntroScreen extends StatelessWidget {
+
+class WelcomeScreen extends StatelessWidget {
+  const WelcomeScreen({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,13 +22,11 @@ class IntroScreen extends StatelessWidget {
               ),
             ),
             Image.asset(
-              'assets/img1.png', 
+              'assets/img1.png',
               width: 150.0,
-              height: 150.0, 
-              fit: BoxFit.contain, 
+              height: 150.0,
+              fit: BoxFit.contain,
             ),
-            SizedBox(height: 20.0),
-            
             SizedBox(height: 20.0),
             ElevatedButton(
               style: ElevatedButton.styleFrom(
@@ -34,7 +35,7 @@ class IntroScreen extends StatelessWidget {
               onPressed: () {
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => FirstScreen()),
+                  MaterialPageRoute(builder: (context) => const FirstScreen()),
                 );
               },
               child: Text('Tarmog\'ga ulanish'),

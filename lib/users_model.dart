@@ -19,4 +19,13 @@ class UserModel {
       pictureURL: json['picture']['medium'],
     );
   }
+
+  Map<String, dynamic> toMap() {
+    return {
+      'firstName': firstName,
+      'lastName': lastName,
+      'email': email,
+      'pictureURL': pictureURL,
+    };
+  }
 }
