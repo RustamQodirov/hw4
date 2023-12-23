@@ -22,3 +22,8 @@ child: The text displayed on the button.
 
 The Column widget arranges these components vertically in the center of the screen.
 
+![Screenshot_1703331705](https://github.com/RustamQodirov/hw4/assets/115059100/e8be57e0-4692-4f09-b3b6-702eaf9394f5)
+![Screenshot_1703332533](https://github.com/RustamQodirov/hw4/assets/115059100/6cc13187-28c1-4f9b-9379-19e6ba9d01d4)
+![Screenshot_1703332574](https://github.com/RustamQodirov/hw4/assets/115059100/0093d188-3888-4a02-8ff6-7df2448b3675)
+
+
